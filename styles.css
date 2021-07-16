@@ -1,0 +1,39 @@
+img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url(images/fish-background.jpg);
+    background-size: 200px;
+}
+
+#rightSide {
+    left: 500px;
+    border-left: 1px solid;
+}
+
+body {
+    background: palegoldenrod;
+}
+
+#restartBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    font-size: 2em;
+    padding: 1em;
+    border-radius: 45%;
+}
+
+button {
+    background-color: orange;
+    font-size: 1em;
+    padding: .4em;
+    border-radius: 45%;
+}

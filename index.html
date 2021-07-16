@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Matching Cats</h1>
+        <p>Choose a mode, then click on the cat face on the left that doesn't appear on the right. Clicking anything else will end the game!</p>
+    <h2 id="counter">Level : 1</h2>
+    <button id="restartBtn" type="button" onclick="restartGame()">Restart game?</button>
+    <button class="modeBtn" id="easy" type="button" onclick="easy()">Easy mode</button>
+    <button class="modeBtn" id="normal" type="button" onclick="normal()">Normal mode</button>
+    <button class="modeBtn" id="hard" type="button" onclick="hard()">Hard mode</button>
+
+    <div id="leftSide"></div>
+    <div id="rightSide"></div>
+    <script src="script.js"></script>
+</body>
+</html>
